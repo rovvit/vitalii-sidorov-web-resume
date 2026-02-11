@@ -4,7 +4,7 @@ import {ReactComponent as LinkedInLogo} from '../../assets/mail.svg';
 
 const MailButton: React.FC = () => {
     const handleClick = () => {
-        window.open('mailto:vitaliy.vorodis@gmail.com', '_blank');
+        window.open('mailto:vitalii.vorodis@gmail.com', '_blank');
     };
     return (
         <button className={styles.button} onClick={handleClick}>

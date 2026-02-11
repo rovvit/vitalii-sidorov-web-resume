@@ -16,7 +16,7 @@ const HomePageNew: React.FC = () => {
             <div className={styles.content}>
                 <div className={styles.description}>
                     <div className={styles.title}>
-                        <p>Hi!👋👋🏻</p>
+                        <p>Hi!👋🏻</p>
                         <p>I am Vitalii Sidorov,</p>
                         <p>ISTQB® Certified QA Engineer.</p>
                     </div>
