@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vitalii-sidorov-web-resume/static/css/main.f0e6b3cf.css",
-    "main.js": "/vitalii-sidorov-web-resume/static/js/main.4cd643fa.js",
-    "static/media/photo.jpg": "/vitalii-sidorov-web-resume/static/media/photo.f90c58c3b2c9ffe3946a.jpg",
+    "main.css": "/vitalii-sidorov-web-resume/static/css/main.631ea3e0.css",
+    "main.js": "/vitalii-sidorov-web-resume/static/js/main.b28af05c.js",
+    "static/media/photo.jpg": "/vitalii-sidorov-web-resume/static/media/photo.558bd8cf71bd33d9a17c.jpg",
     "static/media/mail.svg": "/vitalii-sidorov-web-resume/static/media/mail.cb06233c41cc440e417afd88f242b4d0.svg",
     "static/media/telegram.svg": "/vitalii-sidorov-web-resume/static/media/telegram.9882f98e7e32af44b06741e0d0600905.svg",
     "index.html": "/vitalii-sidorov-web-resume/index.html",
     "static/media/download.svg": "/vitalii-sidorov-web-resume/static/media/download.f50cebc1fdb484fd4c1d4cb6dfa9ee98.svg",
     "static/media/linkedinLogo.svg": "/vitalii-sidorov-web-resume/static/media/linkedinLogo.6d41623f09dd71aaa8f9332178e63731.svg",
-    "main.f0e6b3cf.css.map": "/vitalii-sidorov-web-resume/static/css/main.f0e6b3cf.css.map",
-    "main.4cd643fa.js.map": "/vitalii-sidorov-web-resume/static/js/main.4cd643fa.js.map"
+    "main.631ea3e0.css.map": "/vitalii-sidorov-web-resume/static/css/main.631ea3e0.css.map",
+    "main.b28af05c.js.map": "/vitalii-sidorov-web-resume/static/js/main.b28af05c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0e6b3cf.css",
-    "static/js/main.4cd643fa.js"
+    "static/css/main.631ea3e0.css",
+    "static/js/main.b28af05c.js"
   ]
 }
