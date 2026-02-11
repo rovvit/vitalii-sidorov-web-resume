@@ -61,7 +61,7 @@
 .media {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
     justify-content: center;
     align-items: center;
 }
@@ -110,7 +110,7 @@
     border-radius: 2rem;
     padding: 1rem 2rem;
     font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     margin: 1rem 1rem;
     white-space: nowrap;
 }
@@ -126,13 +126,13 @@
 
 .title {
     width: 80%;
-    font-family: monospace;
     font-size: 8rem;
+    /*font-family: monospace;*/
 }
 
 .text {
     width: 80%;
-    font-family: monospace;
+    /*font-family: monospace;*/
     font-size: 5rem;
     line-height: 1.1;
     text-align: justify;
@@ -140,7 +140,7 @@
 
 .text strong {
     font-weight: bold;
-    background-color: var(--color-3);
+    background-color: color-mix(in srgb, var(--color-3), transparent 30%);
 }
 
 @media (max-width: 768px) {

@@ -17,8 +17,8 @@ const HomePageNew: React.FC = () => {
                 <div className={styles.description}>
                     <div className={styles.title}>
                         <p>Hi!👋🏻</p>
-                        <p>I am Vitalii Sidorov,</p>
-                        <p>ISTQB® Certified QA Engineer.</p>
+                        <p>My name is Vitalii Sidorov,</p>
+                        <p>I am a ISTQB® Certified QA Engineer.</p>
                     </div>
                     <div className={styles.tags}>
                         {tags && tags.length > 0 && (

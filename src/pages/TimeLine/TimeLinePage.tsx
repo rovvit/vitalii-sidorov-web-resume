@@ -2,6 +2,7 @@ import React from 'react';
 import TimeLineItem from "../../components/TimeLineItem/TimeLineItem";
 import styles from "./TimeLinePage.module.css";
 import Layout from "../../components/Layout/Layout";
+import { Link } from 'react-router-dom';
 
 interface ExperienceEntry {
     year: string;
@@ -19,7 +20,14 @@ const experienceData: ExperienceEntry[] = [
         title: "Relocation Gap",
         company: "",
         description: "Working on pet-projects in Python and React.",
-        tags: ["React", "Python", "Docker"]
+        tags: ["React", "Python", "Docker"],
+        renderCustom: () => (
+            <div className={styles.customContent}>
+                <Link to={"/projects"} className={styles.certificateLink}>
+                    Projects list
+                </Link>
+            </div>
+        )
     },
     {
         date: "2024-11-01",
@@ -48,7 +56,7 @@ const experienceData: ExperienceEntry[] = [
     {
         date: "2023-05-17",
         year: "2023",
-        title: "JavaScrpit School",
+        title: "JavaScript School",
         company: "Quantori Academy",
         description: "Dived into React basics",
         tags: ["React", "JavaScript", "TypeScript", "API"],
