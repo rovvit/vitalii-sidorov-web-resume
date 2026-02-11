@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "./Header.module.css";
+import { Link } from 'react-router-dom';
 import LinkedInButton from "../Buttons/LinkedInButton";
 import TelegramButton from "../Buttons/TelegramButton";
 import MailButton from "../Buttons/MailButton";
@@ -12,7 +13,7 @@ const Header: React.FC = () => {
             </div>
             <div className={styles.filler}/>
             <nav className={styles.nav}>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
             </nav>
             <div className={styles.button}>
                 <LinkedInButton />

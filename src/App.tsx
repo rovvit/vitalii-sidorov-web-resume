@@ -4,7 +4,7 @@ import AppRoutes from './routers/index';
 
 const App: React.FC = () => {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/vitalii-sidorov-web-resume">
         <AppRoutes />
       </BrowserRouter>
   );
