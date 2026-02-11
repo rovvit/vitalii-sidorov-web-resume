@@ -1,0 +1,129 @@
+/* Общая анимация появления */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Стартовое состояние для всех */
+.title,
+.tags,
+.text,
+.media {
+    opacity: 0;
+    animation-name: fadeInUp;
+    animation-fill-mode: forwards;
+}
+
+/* Последовательность с задержками */
+.title {
+    animation-duration: 1.6s;
+    animation-delay: 0s;
+}
+
+.tags {
+    animation-duration: 1.6s;
+    animation-delay: 1.4s;
+}
+
+.text {
+    animation-duration: 1.6s;
+    animation-delay: 2.2s;
+}
+
+.media {
+    animation-duration: 1.6s;
+    animation-delay: 2.6s;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    max-height: 64px;
+    margin: 12rem;
+}
+
+.buttons svg {
+    height: 100%;
+    max-height: inherit;
+    width: auto;
+}
+
+.download {
+
+}
+
+.photo {
+    width: 12vw;
+    border-radius: 12rem 0 12rem 0;
+    box-shadow: 10px 10px 5px lightgray;
+    aspect-ratio: 3 / 4;
+}
+.tags{
+    width: 80%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    padding: 0 4rem 4rem 4rem;
+
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+}
+
+.tag {
+    border: solid 1px lightgray;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem 2rem;
+    white-space: nowrap;
+}
+
+.title {
+    width: 80%;
+    font-family: monospace;
+    font-size: 8rem;
+}
+
+.text {
+    width: 80%;
+    font-family: monospace;
+    font-size: 5rem;
+    line-height: 1.1;
+    text-align: justify;
+}
+
+.text strong {
+    font-weight: bold;
+    background-color: #faedcd;
+}

@@ -16,11 +16,7 @@ const Header: React.FC = () => {
             </nav>
             <div className={styles.button}>
                 <LinkedInButton />
-            </div>
-            <div className={styles.button}>
                 <TelegramButton />
-            </div>
-            <div className={styles.button}>
                 <MailButton />
             </div>
         </header>

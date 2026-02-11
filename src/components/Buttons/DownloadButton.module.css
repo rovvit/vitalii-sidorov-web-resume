@@ -5,8 +5,9 @@
 }
 
 .button {
-    border: solid var(--color-120) 1px;
-    border-radius: 1rem;
+    /*border: solid var(--color-120) 1px;*/
+    /*border-radius: 1rem;*/
+    border:none;
 
     display: flex;
     flex-direction: row;
@@ -17,11 +18,13 @@
     padding: 0 0 0 2rem;
     box-shadow: none;
     outline: none;
-    background-color: var(--color-9);
+    /*background-color: var(--color-9);*/
+    background-color: transparent;
 }
 
 .button:hover {
-    background-color: var(--color-50);
+    /*background-color: var(--color-50);*/
+    background-color: #faedcd;
 }
 
 .button span {
