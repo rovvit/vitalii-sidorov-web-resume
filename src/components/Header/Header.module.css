@@ -1,13 +1,18 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10% 0 2rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
     color: var(--color-primary);
     font-size: 4rem;
     min-height: 36px;
+    background-color: rgba(var(--color-2), 0.8);
+    backdrop-filter: blur(10px);
 }
 
 .nav {
@@ -35,20 +40,38 @@
 }
 
 .logoIcon {
-    height: 64%;
-    width: auto;
+    display: none;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     .nav {
-        font-size: 3rem;
+        font-size: 5rem;
         padding: 0.5rem;
         gap: 1rem;
     }
 
+    .name {
+        display: none;
+    }
+
     .logo {
-        font-size: 6rem;
-        padding: 0.5rem;
+        min-width: 12rem;
+        margin-left: 0;
+    }
+    .logoIcon {
+        display: flex;
+        height: 64%;
+        width: min-content;
+        background-color: black;
+        border-radius: 18px;
+        margin-left: 4rem;
+    }
+
+    .header {
+        justify-content: center;
+        padding: 0 10% 0 0;
+        height: 8vh;
     }
 }
 

@@ -25,11 +25,12 @@
     --color-1:  #FFFFFF;
     --color-linked-in: #0A66C2;
     --color-linked-in-dark: #064580;
+    --color-background-main: #f0f0f0;
 }
 
 :global(main) {
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: var(--color-background-main);
     width: 90%;
     border: black solid 10px;
 }

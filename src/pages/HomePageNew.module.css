@@ -10,7 +10,6 @@
     }
 }
 
-/* Стартовое состояние для всех */
 .title,
 .tags,
 .text,
@@ -20,7 +19,6 @@
     animation-fill-mode: forwards;
 }
 
-/* Последовательность с задержками */
 .title {
     animation-duration: 1.6s;
     animation-delay: 0s;
@@ -45,6 +43,7 @@
     display: flex;
     flex-direction: row;
     width: 80%;
+    margin-top: 3rem;
 }
 
 .description {
@@ -56,7 +55,7 @@
     justify-content: center;
 }
 .description p:not(:last-child) {
-    margin-bottom: 4rem; /* 16px при твоем корневом размере */
+    margin-bottom: 4rem;
 }
 
 .media {
@@ -65,7 +64,6 @@
     width: 40%;
     justify-content: center;
     align-items: center;
-
 }
 
 .buttons {
@@ -91,6 +89,11 @@
     box-shadow: 10px 10px 5px lightgray;
     aspect-ratio: 3 / 4;
     object-fit: cover;
+}
+
+.photoWrappper {
+    display: flex;
+    justify-content: center;
 }
 .tagsContainer{
     display: flex;
@@ -138,4 +141,43 @@
 .text strong {
     font-weight: bold;
     background-color: var(--color-3);
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 100%;
+        margin-right: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .media {
+        width: 100%;
+    }
+    .photo {
+        margin: 3rem;
+        width: 50%;
+        border-radius: 12rem 0 12rem 0;
+        box-shadow: 10px 10px 5px lightgray;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        height: 12rem;
+        margin: 2rem;
+    }
+
+    .title {
+        font-size: 6rem;
+    }
+
 }

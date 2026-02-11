@@ -5,12 +5,14 @@ import LinkedInButton from "../Buttons/LinkedInButton";
 import TelegramButton from "../Buttons/TelegramButton";
 import MailButton from "../Buttons/MailButton";
 import HomeButton from "../Buttons/HomeButton";
+import { ReactComponent as Logo } from "../../assets/favicon.svg";
 
 const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
                 <div className={styles.name}>Vitalii Sidorov</div>
+                <Logo className={styles.logoIcon}/>
             </div>
             <div className={styles.filler}/>
             <nav className={styles.nav}>
