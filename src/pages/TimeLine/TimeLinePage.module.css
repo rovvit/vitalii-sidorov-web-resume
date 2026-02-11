@@ -58,3 +58,21 @@
         padding: 20px 10px;
     }
 }
+
+.customContent {
+    margin: 1rem 0 3rem 0;
+    font-size: 3.5rem;
+}
+
+.certificateLink {
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-weight: 500;
+    gap: 1rem;
+}
+
+.certificateLink:hover {
+    color: var(--color-80);
+}
