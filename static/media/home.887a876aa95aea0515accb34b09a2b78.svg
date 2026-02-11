@@ -1,0 +1,11 @@
+<svg fill="#000000" viewBox="0 0 24 24" id="home" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg"
+     class="icon flat-line">
+    <g id="SVGRepo_iconCarrier">
+        <path id="secondary" d="M19,10V20.3a.77.77,0,0,1-.83.7H14.3V14.1H9.7V21H5.83A.77.77,0,0,1,5,20.3V10l7-7Z"
+              style="fill: #2ca9bc; stroke-width: 2;"/>
+        <path id="primary" d="M19,10V20.3a.77.77,0,0,1-.83.7H14.3V14.1H9.7V21H5.83A.77.77,0,0,1,5,20.3V10"
+              style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+        <polyline points="21 12 12 3 3 12"
+                  style="fill: none; stroke: #000000; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+    </g>
+</svg>
