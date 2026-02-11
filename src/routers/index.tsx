@@ -7,9 +7,9 @@ import HomePageNew from "../pages/HomePageNew";
 const AppRoutes: React.FC = () => {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            {/*<Route path="/" element={<HomePage />} />*/}
             <Route path="/contacts" element={<ContactPage />} />
-            <Route path="/new" element={<HomePageNew />} />
+            <Route path="/" element={<HomePageNew />} />
             <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
     );

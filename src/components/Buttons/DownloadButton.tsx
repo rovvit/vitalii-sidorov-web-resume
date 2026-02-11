@@ -6,7 +6,7 @@ import {ReactComponent as DownloadIcon} from '../../assets/download.svg';
 const DownloadButton: React.FC = () => {
     const handleClick = () => {
         const link = document.createElement('a');
-        link.href = '/files/Vitalii_Sidorov_CV.pdf';
+        link.href = process.env.PUBLIC_URL + '/files/Vitalii_Sidorov_CV.pdf';
         link.download = 'Vitalii_Sidorov_QA_CV.pdf';
         document.body.appendChild(link);
         link.click();
