@@ -1,11 +1,11 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
-import {ReactComponent as Logo} from '../assets/logo.svg';
 import styles from './HomePageNew.module.css';
 import DownloadButton from "../components/Buttons/DownloadButton";
 import LinkedInButton from "../components/Buttons/LinkedInButton";
 import TelegramButton from "../components/Buttons/TelegramButton";
 import MailButton from "../components/Buttons/MailButton";
+import TagsList from "../components/TagsList/TagsList";
 import photo from "./../assets/photo.jpg"
 
 const HomePageNew: React.FC = () => {
@@ -21,9 +21,13 @@ const HomePageNew: React.FC = () => {
                         <p>ISTQB® Certified QA Engineer.</p>
                     </div>
                     <div className={styles.tags}>
-                        {tags.map((tag) => (
-                            <span key={tag} className={styles.tag}>{tag}</span>
-                        ))}
+                        {tags && tags.length > 0 && (
+                                <TagsList
+                                    tags={tags}
+                                    tagClassName={styles.tag}
+                                    containerClassName={styles.tagsContainer}
+                                />
+                        )}
                     </div>
                     <div className={styles.text}>
                         <p>Looking for a QA Engineer? You found one!</p>
@@ -32,7 +36,7 @@ const HomePageNew: React.FC = () => {
                             get the job done</strong>. I enjoy making things better, faster, and safer - and I’m always
                             up for
                             learning something new to do it. </p>
-                        <p>I have 4+ years making sure <strong>web, backend, and mobile</strong> apps work the way they
+                        <p>I have 3+ years making sure <strong>web, backend, and mobile</strong> apps work the way they
                             should - securely and reliably. I’m into test automation, clean CI/CD pipelines, and smart
                             ways to catch bugs early.</p>
                         <p>I’ve worked in fintech, enterprise, and healthcare projects, automating frontend and backend

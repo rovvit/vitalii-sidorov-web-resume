@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import LinkedInButton from "../Buttons/LinkedInButton";
 import TelegramButton from "../Buttons/TelegramButton";
 import MailButton from "../Buttons/MailButton";
+import HomeButton from "../Buttons/HomeButton";
 
 const Header: React.FC = () => {
     return (
@@ -13,9 +14,10 @@ const Header: React.FC = () => {
             </div>
             <div className={styles.filler}/>
             <nav className={styles.nav}>
-                <Link to="/">Home</Link>
+                <Link to="/timeline">Timeline</Link>
             </nav>
             <div className={styles.button}>
+                <HomeButton />
                 <LinkedInButton />
                 <TelegramButton />
                 <MailButton />
