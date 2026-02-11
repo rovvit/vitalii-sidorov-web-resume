@@ -43,13 +43,12 @@ const TimeLineItem: React.FC<TimeLineItemProps> = ({year, title, company, descri
                 <span className={styles.year}>{year}</span>
                 <h3 className={styles.title}>{title}</h3>
                 <h4 className={styles.company}>{company}</h4>
-                <p className={styles.description}>{description}</p>
-
                 {tags && tags.length > 0 && (
                     <div className={styles.tagsContainer}>
                         <TagsList tags={tags}/>
                     </div>
                 )}
+                <p className={styles.description}>{description}</p>
             </div>
         </div>
     );

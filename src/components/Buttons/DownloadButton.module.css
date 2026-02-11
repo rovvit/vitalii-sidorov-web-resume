@@ -6,7 +6,7 @@
 
 .button {
     /*border: solid var(--color-120) 1px;*/
-    /*border-radius: 1rem;*/
+    border-radius: 3rem;
     border:none;
 
     display: flex;
@@ -23,8 +23,8 @@
 }
 
 .button:hover {
-    /*background-color: var(--color-50);*/
-    background-color: #faedcd;
+    background-color: var(--color-4);
+    /*background-color: #faedcd;*/
 }
 
 .button span {

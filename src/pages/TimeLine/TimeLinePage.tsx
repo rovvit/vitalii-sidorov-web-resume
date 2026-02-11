@@ -17,19 +17,21 @@ const TimeLinePage: React.FC = () => {
             title: "Senior QA Engineer",
             company: "Korona Tech Kazakhstan",
             description: "My main focus position was quality assurance of a fintech system’s core in cross functional team ensuring product quality and compliance with financial standards.",
-            tags: ["Kotlin", "AQA", "Oracle PL/SQL"]
+            tags: ["Kotlin", "AQA", "REST API", "Oracle PL/SQL"]
         },
         {
             year: "2023-2024",
             title: "QA Engineer",
             company: "Samgau",
-            description: "Owned QA activities for multiple enterprise projects covering web, mobile, and API testing, driving quality across the full SDLC."
+            description: "Owned QA activities for multiple enterprise projects covering web, mobile, and API testing, driving quality across the full SDLC.",
+            tags: ["Cypress", "Postman", "JMeter", "REST API", "PostgreSQL", "MSSQL", "MongoDB", "SDLC Optimization"]
         },
         {
             year: "2022-2023",
             title: "QA Engineer",
             company: "Vista Med",
-            description: "Conducted manual testing of a medical information system, documentation managing and onboarding new team members."
+            description: "Conducted manual testing of a medical information system, documentation managing and onboarding new team members.",
+            tags: ["Manual Testing", "White Box", "Documentation", "MySQL"]
         }
     ];
 

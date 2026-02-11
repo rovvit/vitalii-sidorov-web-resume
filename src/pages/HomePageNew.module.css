@@ -55,6 +55,9 @@
     align-items: center;
     justify-content: center;
 }
+.description p:not(:last-child) {
+    margin-bottom: 4rem; /* 16px при твоем корневом размере */
+}
 
 .media {
     display: flex;
@@ -134,5 +137,5 @@
 
 .text strong {
     font-weight: bold;
-    background-color: #faedcd;
+    background-color: var(--color-3);
 }
