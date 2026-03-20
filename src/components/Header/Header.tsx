@@ -16,6 +16,9 @@ const Header: React.FC = () => {
             </div>
             <div className={styles.filler}/>
             <nav className={styles.nav}>
+                <Link to="/games">Games</Link>
+            </nav>
+            <nav className={styles.nav}>
                 <Link to="/timeline">Timeline</Link>
             </nav>
             <div className={styles.button}>

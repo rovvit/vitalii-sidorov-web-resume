@@ -4,6 +4,8 @@ import ContactPage from '../pages/ContactPage';
 import HomePageNew from "../pages/HomePageNew";
 import TimeLinePage from "../pages/TimeLine/TimeLinePage"
 import ProjectsPage from "../pages/Projects/ProjectsPage";
+import GamesPage from "../pages/Games/GamesPage"
+import ConnectFourGame from "../pages/Games/ConnectFour/ConnectFour";
 
 const AppRoutes: React.FC = () => {
     return (
@@ -13,6 +15,10 @@ const AppRoutes: React.FC = () => {
             <Route path="/" element={<HomePageNew />} />
             <Route path="/timeline" element={<TimeLinePage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/games">
+                <Route index element={<GamesPage />} />
+                <Route path="connect-four" element={<ConnectFourGame />} />
+            </Route>
             <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
     );

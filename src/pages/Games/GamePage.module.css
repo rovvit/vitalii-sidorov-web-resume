@@ -1,0 +1,25 @@
+.container {
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.pageTitle {
+    font-size: 8rem;
+    margin-bottom: 6rem;
+    color: var(--color-primary);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 4rem;
+    }
+    .pageTitle {
+        font-size: 6rem;
+        text-align: center;
+    }
+}
